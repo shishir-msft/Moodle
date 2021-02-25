@@ -205,6 +205,7 @@
             "properties": {
                 "mode": "Incremental",
                 "parameters": {
+                    "applyScriptsSwitch":           { "value": "false" },
                     "_artifactsLocation":           { "value": "[variables('_artifactsLocation')]" },
                     "_artifactsLocationSasToken":   { "value": "[variables('_artifactsLocationSasToken')]" },
                     "redisDeploySwitch":            { "value": "[bool(parameters('redisDeploySwitch'))]" },
